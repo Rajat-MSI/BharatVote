@@ -1,0 +1,83 @@
+
+/*Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template*/
+
+
+/*Created on : 31-Aug-2023, 2:15:10 pm
+Author     : rajat*/
+
+body
+{
+    /*background: rgb(255,153,51);*/
+    background-image:url(images/vote-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0,0,0,0);
+
+    /*background-color: linear-gradient(145deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 55%, rgba(19,136,8,1) 100%);*/
+    background-blend-mode: multiply;
+}
+.t-saffron
+{
+    color:#FF9933;
+}
+
+.t-green
+{
+    color:#138808;
+}
+
+.t-blue
+{
+    color:#000080;
+}
+
+.bg-blue
+{
+    background-color:#000080;
+}
+
+.bg-saffron
+{
+    background-color:#FF9933;
+}
+
+.bg-green
+{
+    background-color:#138808;
+}
+
+.btn-type1
+{
+    background-color:#000080;
+    color:white;
+    transition: 0.2s;
+}
+.btn-type1:hover
+{
+    border:1px solid #000080;
+    color:#000080;
+    background-color: white;
+}
+.a-link
+{
+    text-decoration: none;
+
+}
+.text-hover
+{
+    transition: 0.4s;
+    cursor:pointer;
+}
+.text-hover:hover
+{
+    transition:0.2s;
+    transform:scale(1.02);
+}
+.view-image
+{
+    width:11rem;
+    height:12rem;
+}

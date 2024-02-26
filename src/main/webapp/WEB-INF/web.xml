@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>RegisterVoter</servlet-name>
+        <servlet-class>org.app.onlinevotingapplication.servlets.RegisterVoter</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterParty</servlet-name>
+        <servlet-class>org.app.onlinevotingapplication.servlets.RegisterParty</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterCandidate</servlet-name>
+        <servlet-class>org.app.onlinevotingapplication.servlets.RegisterCandidate</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterElection</servlet-name>
+        <servlet-class>org.app.onlinevotingapplication.servlets.RegisterElection</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CastVote</servlet-name>
+        <servlet-class>org.app.onlinevotingapplication.servlets.CastVote</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterVoter</servlet-name>
+        <url-pattern>/RegisterVoter</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterParty</servlet-name>
+        <url-pattern>/RegisterParty</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterCandidate</servlet-name>
+        <url-pattern>/RegisterCandidate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterElection</servlet-name>
+        <url-pattern>/RegisterElection</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CastVote</servlet-name>
+        <url-pattern>/CastVote</url-pattern>
+    </servlet-mapping>
+</web-app>

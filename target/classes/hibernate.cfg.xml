@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/online_voting_application</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">1162</property>
+
+        <!-- Hibernate dialect for your database -->
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <!-- Other Hibernate settings -->
+        <property name="hibernate.show_sql">false</property>
+        <property name="hibernate.format_sql">false</property>
+
+        <!-- Entity classes (mapped classes) package -->
+        <mapping class="org.app.onlinevotingapplication.Administrator" />
+        <mapping class="org.app.onlinevotingapplication.Voter" />
+        <mapping class="org.app.onlinevotingapplication.State" />
+        <mapping class="org.app.onlinevotingapplication.District" />
+        <mapping class="org.app.onlinevotingapplication.Party" />
+        <mapping class="org.app.onlinevotingapplication.Alliance" />
+        <mapping class="org.app.onlinevotingapplication.Candidate" />
+        <mapping class="org.app.onlinevotingapplication.Election" />
+        <mapping class="org.app.onlinevotingapplication.ElectionProcess" />
+        
+        <!-- Add more mapping classes here if needed -->
+        
+
+    </session-factory>
+</hibernate-configuration>
